@@ -1,0 +1,87 @@
+.grid-view .ot-review-items {
+	margin:3px 0;
+	min-height:200px;
+	overflow:hidden;
+}
+.grid-view .ot-review-image img, .list-view .ot-review-image img {
+    border: 2px solid #40b4c4;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+
+.list-view .ot-review-items{
+	text-align:center;
+	margin-bottom:20px;
+}
+
+
+.otcarousel .carousel-indicators {
+    bottom: 0;
+    margin-right: -19px;
+    margin-left: 0;
+    right: 0;
+    top: auto;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+.otcarousel .carousel-indicators li {
+    border: 4px solid #ccc;
+    border-radius: 50px;
+    cursor: pointer;
+    height: 50px;
+    margin: 5px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s ease 0s;
+    width: 50px;
+    float: none;
+}
+.otcarousel .carousel-indicators .active {
+    background: #333333 none repeat scroll 0 0;
+    border-color: #f33;
+    border-radius: 50%;
+    height: 100px;
+    opacity: 1;
+    overflow: hidden;
+    width: 100px;
+}
+.otcarousel .carousel-inner {
+    min-height: 300px;
+}
+.ot-facebook-reviews blockquote {
+    font-size: 1.125em;
+    line-height: 1.45;
+    font-style: italic;
+    margin: 0 0 30px;
+    padding: 15px 30px;
+    border-left: 1px solid #ddd;
+}
+
+.omega-powered {
+    float: right;
+}
+
+@media (max-width: 980px) {
+	.grid-view .ot-review-items {
+		min-height:318px;
+	}	
+}
+
+@media (max-width: 640px) {
+	.grid-view .ot-review-items {
+		text-align:center;
+	}
+	.grid-view .ot-review-image .img-responsive {
+		display:inline-block;
+	}
+	
+	.otcarousel .carousel-indicators .active {
+		height: 60px;
+		width: 60px;
+	}	
+	.otcarousel .carousel-inner {
+		min-height: 60vh;
+	}	
+}
